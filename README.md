@@ -1,0 +1,2 @@
+# SCOWeb
+SwordCraftOnline Website
