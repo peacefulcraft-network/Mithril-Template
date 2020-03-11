@@ -1,2 +1,2 @@
-# SCOWeb
-SwordCraftOnline Website
+# PCN Mithril-Template
+Mithril.js Template
