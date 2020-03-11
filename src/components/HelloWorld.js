@@ -1,6 +1,8 @@
 import m from 'mithril';
-import '../css/main.css';
 
+import PCNLogo from '../assets/images/PCNLogo.png';
+
+import '../css/main.css';
 export default {
-  view: () => m('h1', 'Hellow World!'),
+  view: () => [ m('img', { src: PCNLogo }), m('h1', 'Hellow World!') ],
 };
