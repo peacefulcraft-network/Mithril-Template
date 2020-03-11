@@ -1,3 +1,4 @@
+/* eslint-disable */
 const path = require("path");
 
 module.exports = {
@@ -12,5 +13,16 @@ module.exports = {
     contentBase: path.join(__dirname, 'public'),
     compress: true,
     hot: true
-  }
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader',
+        ],
+      },
+    ],
+  },
 }
