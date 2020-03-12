@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack src/index.js --output bin/app.js -p",
-    "dev:lint": "eslint src/* --fix",
+    "dev:lint": "eslint src/**/*.js --fix",
     "dev:start": "webpack-dev-server"
   },
   "repository": {
