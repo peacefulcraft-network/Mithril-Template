@@ -5,7 +5,7 @@ Mithril.js Template
 - Mithril (duh)
 - Basic eslint styling enforcement
 - Webpack
-- Webpack style loading
+- Webpack style loading `(css)`
 - Webpack asset loading `(png|svg|jpg|gif)`, but more can be added in `webpack.config.js`.
 - Code splitting - inline with `import()` and a monolithic vendor bundle
 - Cache punching
