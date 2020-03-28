@@ -14,6 +14,11 @@ module.exports = {
     compress: true,
     hot: true
   },
+  resolve: {
+    alias: {
+      '@': path.resolve('src'),
+    },
+  },
   module: {
     rules: [
       {
