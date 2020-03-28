@@ -1,4 +1,12 @@
 import m from 'mithril';
 
-import HelloWorld from './components/HelloWorld.js';
-m.mount(document.body, HelloWorld);
+m.route.prefix = '';
+m.route(document.body, '/', {
+  '/': {
+    onmatch: () => new Promise((resolve) => {
+      import(/* webpackChunkName: "HelloWorld" */ '@/components/HelloWorld.js').then(({ default: HelloWorld}) => {
+        resolve(HelloWorld);
+      });
+    }),
+  },
+});
