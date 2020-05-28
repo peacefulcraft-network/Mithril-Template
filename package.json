@@ -1,7 +1,7 @@
 {
-  "name": "scoweb",
+  "name": "mithril_template",
   "version": "0.0.1",
-  "description": "SwordCraftOnline Website",
+  "description": "An SPA template for MithrilJS",
   "main": "index.js",
   "scripts": {
     "build": "rm -r bin; webpack src/index.js -p",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peacefulcraft-network/SCOWeb.git"
+    "url": "git+https://github.com/peacefulcraft-network/Mithril-Template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/peacefulcraft-network/SCOWeb/issues"
+    "url": "https://github.com/peacefulcraft-network/Mithril-Template/issues"
   },
-  "homepage": "https://github.com/peacefulcraft-network/SCOWeb#readme",
+  "homepage": "https://github.com/peacefulcraft-network/Mithril-Template",
   "dependencies": {
     "mithril": "^2.0.4"
   },
