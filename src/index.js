@@ -1,6 +1,8 @@
 import m from 'mithril';
 
-m.route.prefix = '';
+import HeadedLayout from '@/layouts/LayoutHeaded.js';
+
+m.route.prefix = '#!';
 m.route(document.body, '/', {
   '/': {
     onmatch: () => new Promise((resolve) => {
@@ -8,5 +10,6 @@ m.route(document.body, '/', {
         resolve(HelloWorld);
       });
     }),
+    render: (vnode) => { return m(HeadedLayout, vnode); }
   },
 });

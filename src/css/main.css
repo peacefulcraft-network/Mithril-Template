@@ -1,4 +1,12 @@
+html, body {
+  margin: 0;
+}
+
 h1 {
   font-family: sans-serif;
   text-decoration: underline;
+}
+
+:root {
+  --pcn-green: #A9DCA9;
 }

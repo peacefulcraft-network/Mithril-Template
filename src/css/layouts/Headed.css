@@ -1,0 +1,9 @@
+#layout_headed .header{
+  height: 59px;
+  background-color: var(--pcn-green);
+}
+
+#layout_headed .layout_content {
+  margin-top: 10px;
+  text-align: center;
+}
