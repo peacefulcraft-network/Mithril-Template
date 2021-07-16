@@ -10,9 +10,9 @@ import m from 'mithril';
 
 // Cheap loading component. If you have a loading component, you could also mount that here.
 m.mount(document.body, {
-  view: () => {
-    return m('h4', 'Simulating a long-running loading tasks...');
-  },
+	view: () => {
+		return m('h4', 'Simulating a long-running loading tasks...');
+	},
 });
 
 // import script with side effects. m.route is told to mount to document.body so it will replace anything that is there up to this point

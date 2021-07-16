@@ -7,12 +7,12 @@ import '@/css/layouts/Headed.css';
  * Mounts page content underneith
  */
 export default class LayoutHeaded {
-  view(vnode) {
-    return m('#layout_headed', [
-      m('.header'),
-      m('.layout_content',
-        ...vnode.children
-      ),
-    ]);
-  }
+	view(vnode) {
+		return m('#layout_headed', [
+			m('.header'),
+			m('.layout_content',
+				...vnode.children
+			),
+		]);
+	}
 }
